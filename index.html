@@ -29,6 +29,7 @@
 
             <div class="hidden md:flex space-x-8 text-sm">
                 <a href="#projects" class="nav-link">PROJECTS</a>
+                <a href="#certifications" class="nav-link hidden lg:inline-block">CERTIFICATIONS</a>
                 <a href="#contact" class="nav-link">CONTACT</a>
             </div>
         </div>
@@ -186,78 +187,41 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
             <div class="space-y-2">
-                <img src="img/3 zaka.png" alt="Project 1" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">Sakamichi Oshi Generator</h3>
-                <p class="text-xs text-gray-600">2023</p>
-                <a href="https://nuggg13.github.io/oshi-generator/"
-                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
-                    View
-                </a>
-            </div>
-
-            <div class="space-y-2">
-                <img src="img/keuangan.jpg" alt="Project 2" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">Simple Finance Tracker</h3>
-                <p class="text-xs text-gray-600">2023</p>
-                <a href="https://nuggg13.github.io/tempat-catat-keuangan-paling-simpel/"
-                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
-                    View
-                </a>
-            </div>
-
-            <div class="space-y-2">
-                <img src="img/itfest.png" alt="Project 3" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">IT Festival MI Polsri Project 2023</h3>
-                <p class="text-xs text-gray-600">2023</p>
-                <a href="https://zawaruno.github.io/RPL-SMKN-4-PLG/"
-                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
-                    View
-                </a>
-            </div>
-
-            <div class="space-y-2">
-                <img src="img/cover_budi.png" alt="Project 4" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">Escape From Budi</h3>
-                <p class="text-xs text-gray-600">2025</p>
-                <a href="https://nugraha-abi-santana.itch.io/escape-from-budi"
-                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
-                    View
-                </a>
-            </div>
-
-            <div class="space-y-2">
-                <img src="img/Frame 3.png" alt="Project 4" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">The last seed</h3>
-                <p class="text-xs text-gray-600">2024</p>
-                <a href="https://rpl-smkn4plg-neet.itch.io/the-last-seed"
-                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
-                    View
-                </a>
-            </div>
-
-            <div class="space-y-2">
-                <img src="img/djfd.png" alt="Project 4" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">UI/UX Project "WatAV"</h3>
-                <p class="text-xs text-gray-600">2024</p>
-                <button onclick="openModal('watavModal')"
+                <img src="img/QuizHell.png" alt="QuizHell Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">QuizHell</h3>
+                <p class="text-xs text-gray-600">2026</p>
+                <button onclick="openModal('quizhellModal')"
                     class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
                     View
                 </button>
             </div>
 
             <div class="space-y-2">
-                <img src="img/horehore.png" alt="Project 4" class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">Bubble Soul</h3>
+                <img src="img/cover_budi.png" alt="Escape From Budi Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">Escape From Budi</h3>
                 <p class="text-xs text-gray-600">2025</p>
-                <a href="https://globalgamejam.org/games/2025/bubble-soul-1"
+                <button onclick="openModal('escapeModal')"
                     class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
                     View
-                </a>
+                </button>
             </div>
 
-            <!-- UMKMbid -->
             <div class="space-y-2">
-                <img src="img/umkm.png" alt="UMKMbid Project" class="w-full h-48 object-cover border border-black">
+                <img src="img/horehore.png" alt="Bubble Soul Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">Bubble Soul</h3>
+                <p class="text-xs text-gray-600">2025</p>
+                <button onclick="openModal('bubbleModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/umkm.png" alt="UMKMbid Project"
+                    class="w-full h-48 object-cover border border-black">
                 <h3 class="text-lg font-serif">UMKMbid</h3>
                 <p class="text-xs text-gray-600">2025</p>
                 <button onclick="openModal('umkmbidModal')"
@@ -266,7 +230,6 @@
                 </button>
             </div>
 
-            <!-- Klinik Serbabisa -->
             <div class="space-y-2">
                 <img src="img/klinik.png" alt="Klinik Serbabisa Project"
                     class="w-full h-48 object-cover border border-black">
@@ -278,20 +241,214 @@
                 </button>
             </div>
 
-            <!-- QuizHell -->
             <div class="space-y-2">
-                <img src="img/QuizHell.png" alt="QuizHell Project"
+                <img src="img/valter25.png" alt="VALTER 2025 competition website"
                     class="w-full h-48 object-cover border border-black">
-                <h3 class="text-lg font-serif">QuizHell</h3>
-                <p class="text-xs text-gray-600">2026</p>
-                <a href="https://github.com/nuggg13/QuizHell"
+                <h3 class="text-lg font-serif">VALTER 2025</h3>
+                <p class="text-xs text-gray-600">2025</p>
+                <button onclick="openModal('valterModal')"
                     class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
                     View
-                </a>
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/Frame 3.png" alt="The Last Seed Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">The last seed</h3>
+                <p class="text-xs text-gray-600">2024</p>
+                <button onclick="openModal('lastseedModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/djfd.png" alt="UI/UX Project WatAV"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">UI/UX Project "WatAV"</h3>
+                <p class="text-xs text-gray-600">2024</p>
+                <button onclick="openModal('watavModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/3 zaka.png" alt="Sakamichi Oshi Generator Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">Sakamichi Oshi Generator</h3>
+                <p class="text-xs text-gray-600">2023</p>
+                <button onclick="openModal('oshiModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/keuangan.jpg" alt="Simple Finance Tracker Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">Simple Finance Tracker</h3>
+                <p class="text-xs text-gray-600">2023</p>
+                <button onclick="openModal('financeModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/itfest.png" alt="IT Festival MI Polsri Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">IT Festival MI Polsri Project 2023</h3>
+                <p class="text-xs text-gray-600">2023</p>
+                <button onclick="openModal('itfestModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
             </div>
 
         </div>
     </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications"
+        class="max-w-7xl mx-auto px-6 py-12 border-t border-black bg-[#FAFAF8]" data-aos="zoom-in">
+        <h2 class="text-3xl font-serif text-center mb-8">Certifications</h2>
+        <ul class="max-w-4xl mx-auto divide-y divide-gray-300 border-y border-gray-300">
+            <li>
+                <button type="button" onclick="openModal('unityCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">Unity Certified Associate: Game Developer</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by Unity</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/unity-certified-associate.png"
+                            alt="Certificate of Unity Certified Associate: Game Developer" class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" onclick="openModal('valterCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">VALTER 2025 Finalist, Web Design Competition</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by VALTER 2025</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/valter-2025-finalist.png"
+                            alt="Certificate of VALTER 2025 Finalist, Web Design Competition" class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" onclick="openModal('ukbiCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">UKBI (Uji Kemahiran Berbahasa Indonesia)</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by Badan Pengembangan dan Pembinaan Bahasa, Kementerian Pendidikan Dasar dan Menengah Republik Indonesia</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/ukbi.png" alt="Certificate of UKBI (Uji Kemahiran Berbahasa Indonesia)"
+                            class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" onclick="openModal('toeicCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">TOEIC Listening &amp; Reading</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by ETS</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/toeic.png" alt="Certificate of TOEIC Listening & Reading"
+                            class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" onclick="openModal('aiCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">Belajar Dasar AI</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by Dicoding Indonesia</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/dicoding-dasar-ai.png" alt="Certificate of Belajar Dasar AI"
+                            class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" onclick="openModal('webCertificateModal')"
+                    class="w-full flex items-center justify-between gap-4 py-4 text-left">
+                    <span class="min-w-0">
+                        <span class="block font-serif">Belajar Dasar Pemrograman Web</span>
+                        <span class="block text-xs text-gray-600 mt-1">Issued by Dicoding Indonesia</span>
+                    </span>
+                    <span class="w-20 h-14 shrink-0 bg-gray-300 border border-black overflow-hidden">
+                        <img src="img/certificates/dicoding-dasar-pemrograman-web.png"
+                            alt="Certificate of Belajar Dasar Pemrograman Web" class="w-full h-full object-cover">
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </section>
+
+    <div id="unityCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('unityCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('unityCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/unity-certified-associate.png" alt="Certificate of Unity Certified Associate: Game Developer"
+                class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
+
+    <div id="valterCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('valterCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('valterCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/valter-2025-finalist.png" alt="Certificate of VALTER 2025 Finalist, Web Design Competition"
+                class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
+
+    <div id="ukbiCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('ukbiCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('ukbiCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/ukbi.png" alt="Certificate of UKBI (Uji Kemahiran Berbahasa Indonesia)"
+                class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
+
+    <div id="toeicCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('toeicCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('toeicCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/toeic.png" alt="Certificate of TOEIC Listening & Reading"
+                class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
+
+    <div id="aiCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('aiCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('aiCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/dicoding-dasar-ai.png" alt="Certificate of Belajar Dasar AI"
+                class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
+
+    <div id="webCertificateModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/60" onclick="closeModal('webCertificateModal')"></div>
+        <div class="w-11/12 max-w-5xl bg-[#FAFAF8] border border-black p-4 md:p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('webCertificateModal')" class="absolute top-2 right-4 text-3xl leading-none">&times;</button>
+            <img src="img/certificates/dicoding-dasar-pemrograman-web.png"
+                alt="Certificate of Belajar Dasar Pemrograman Web" class="max-h-[75vh] w-full object-contain">
+        </div>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="max-w-7xl mx-auto px-6 py-16 border-t border-black bg-[#FAFAF8] text-black"
@@ -352,7 +509,7 @@
 
 
     <!-- WatAV Modal -->
-    <div id="watavModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center">
+    <div id="watavModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
         <!-- Backdrop -->
         <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('watavModal')"></div>
 
@@ -389,7 +546,7 @@
     </div>
 
     <!-- UMKMbid Modal -->
-    <div id="umkmbidModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center">
+    <div id="umkmbidModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
         <!-- Backdrop -->
         <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('umkmbidModal')"></div>
 
@@ -417,12 +574,16 @@
                 <p>
                     Tools used: Laravel (PHP), Tailwind CSS, MySQL, Eloquent ORM, and MVC Architecture.
                 </p>
+                <a href="https://github.com/nuggg13/UMKMbid" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
             </div>
         </div>
     </div>
 
     <!-- Klinik Serbabisa Modal -->
-    <div id="klinikModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center">
+    <div id="klinikModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
         <!-- Backdrop -->
         <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('klinikModal')"></div>
 
@@ -454,6 +615,227 @@
                 <p>
                     Tools used: Laravel 10 (PHP), MySQL, Tailwind CSS, Blade Templating, and TCPDF/DomPDF.
                 </p>
+                <a href="https://github.com/nuggg13/Klinik-serbaBisa" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- QuizHell Modal -->
+    <div id="quizhellModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('quizhellModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('quizhellModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">QuizHell</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    QuizHell is a web platform for creating and sharing quizzes that fight back. Creators build a quiz and share one public link, and players join with just a nickname, no account needed. While answering real questions, players face the Rage System: playful visual and audio pranks such as moving buttons, fake countdowns, and trap questions. The pranks never touch the real answers, score, or timer.
+                </p>
+                <p>
+                    <strong>Key Highlights:</strong>
+                </p>
+                <ul class="list-disc list-inside space-y-1 ml-2">
+                    <li>Rage System: Designed three difficulty levels (Mild, Annoying, Hell) that control how often pranks appear and which ones are in the pool, with a rule that prevents the same prank from repeating back to back.</li>
+                    <li>Server-Authoritative Quiz Engine: The server handles timing, scoring, and deadlines. Answers are saved as players choose them, attempts can be resumed from the same link, and answer keys are never sent to the browser.</li>
+                    <li>Creator Dashboard & Analytics: Built a quiz builder with Multiple Choice and True/False questions, publish/unpublish controls, a dashboard with status and Rage Level filters, and per-quiz analytics (average score, completion rate, hardest question).</li>
+                    <li>Excel Export: Results can be exported as a formatted .xlsx workbook with a player results sheet and a summary sheet, generated without external libraries.</li>
+                    <li>Security Basics: Password hashing, CSRF protection, rate limiting, prepared statements, and output escaping.</li>
+                </ul>
+                <p>
+                    Tools used: PHP 8.1 (native, no framework), MySQL, JavaScript (ES modules), custom CSS, and PDO.
+                </p>
+                <a href="https://github.com/nuggg13/QuizHell" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Escape From Budi Modal -->
+    <div id="escapeModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('escapeModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('escapeModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">Escape From Budi</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    Game project published on itch.io.
+                </p>
+                <p class="text-xs text-gray-600">2025</p>
+                <a href="https://nugraha-abi-santana.itch.io/escape-from-budi" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on itch.io
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bubble Soul Modal -->
+    <div id="bubbleModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('bubbleModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('bubbleModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">Bubble Soul</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    Bubble Soul is a platformer created for Global Game Jam 2025 around the theme "Bubble". Players guide a bubble on a lighthearted jumping adventure while it searches for its true identity, a quest that runs all the way to the final moment of the game. I worked as the Game Designer in a team of five.
+                </p>
+                <p>
+                    <strong>Key Highlights:</strong>
+                </p>
+                <ul class="list-disc list-inside space-y-1 ml-2">
+                    <li>Concept & Theme Interpretation: Turned the jam's "Bubble" theme into a story about a bubble discovering who it really is.</li>
+                    <li>Gameplay Design: Designed the jump-based platforming experience to stay fun and easy to pick up, with progression that supports the identity journey.</li>
+                    <li>Jam Collaboration: Worked with a team of five to scope the design and deliver a playable game in about 5 to 7 days.</li>
+                </ul>
+                <p>
+                    Tools used: Godot Engine, Figma, and FigJam.
+                </p>
+                <a href="https://globalgamejam.org/games/2025/bubble-soul-1" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on Global Game Jam
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Last Seed Modal -->
+    <div id="lastseedModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('lastseedModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('lastseedModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">The Last Seed</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    The Last Seed is a post-apocalyptic visual novel made for GameSeed 2024. The world has been wrecked by nuclear war and ecological disaster. The protagonist, Timun Mas ("Timas"), and her friend Raya travel in search of the "Seed of Life", hidden in a mysterious place called AcT-0. Along the way, players face moral choices, mutant creatures, and abandoned cities, and their decisions shape the story and its ending.
+                </p>
+                <p>
+                    <strong>Key Highlights:</strong>
+                </p>
+                <ul class="list-disc list-inside space-y-1 ml-2">
+                    <li>Team Leadership: Led the team from concept to submission, coordinating story, art, and programming under the contest deadline.</li>
+                    <li>Game Design: Designed the branching narrative and the survival elements, building choices with real consequences for the characters and the ending.</li>
+                    <li>Game Programming: Supported the programming side, implementing story flow and choice logic in Ren'Py.</li>
+                    <li>Narrative Theme: Combined survival, moral dilemmas, and ecological themes into a story-driven experience.</li>
+                </ul>
+                <p>
+                    Tools used: Ren'Py (Python).
+                </p>
+                <a href="https://rpl-smkn4plg-neet.itch.io/the-last-seed" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on itch.io
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sakamichi Oshi Generator Modal -->
+    <div id="oshiModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('oshiModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('oshiModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">Sakamichi Oshi Generator</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    Web-based generator project hosted on GitHub Pages.
+                </p>
+                <p class="text-xs text-gray-600">2023</p>
+                <a href="https://nuggg13.github.io/oshi-generator/" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View Live Site
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Simple Finance Tracker Modal -->
+    <div id="financeModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('financeModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('financeModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">Simple Finance Tracker</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    Simple finance tracking web app hosted on GitHub Pages.
+                </p>
+                <p class="text-xs text-gray-600">2023</p>
+                <a href="https://nuggg13.github.io/tempat-catat-keuangan-paling-simpel/" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View Live Site
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- IT Festival MI Polsri Modal -->
+    <div id="itfestModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('itfestModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('itfestModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">IT Festival MI Polsri Project 2023</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    Project created for the IT Festival MI Polsri event in 2023, hosted on GitHub Pages.
+                </p>
+                <p class="text-xs text-gray-600">2023</p>
+                <a href="https://zawaruno.github.io/RPL-SMKN-4-PLG/" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View Live Site
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- VALTER 2025 Modal -->
+    <div id="valterModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('valterModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('valterModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">VALTER 2025</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    VALTER 2025 is a web design competition held by HMJ Teknik Komputer Polsri. Together with a teammate, I entered a responsive, interactive website that presents the event's activities, documentation, and participant profiles, and our entry reached the finals. I worked as the Front End Developer.
+                </p>
+                <p>
+                    <strong>Key Highlights:</strong>
+                </p>
+                <ul class="list-disc list-inside space-y-1 ml-2">
+                    <li>Front End Development: Built the front end of the competition website with HTML, CSS, and JavaScript.</li>
+                    <li>Responsive Layout: Made the pages adapt cleanly to different screen sizes, from desktop to mobile.</li>
+                    <li>Interactive Navigation: Implemented user-friendly navigation that keeps browsing simple and clear.</li>
+                    <li>Trailer Integration: Integrated the competition trailer video directly into the website.</li>
+                    <li>Finalist: Our entry reached the finals in the Web Design category.</li>
+                </ul>
+                <p>
+                    Tools used: HTML5, CSS3, JavaScript, Tailwind CSS, and Git & GitHub.
+                </p>
+                <a href="https://zawaruno.github.io/VALTER-2025/" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View Live Site
+                </a>
+                <a href="https://github.com/ZAWARUNO/VALTER-2025" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 ml-2 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
             </div>
         </div>
     </div>
@@ -474,7 +856,10 @@
         // Close modal on Escape key
         document.addEventListener('keydown', function (event) {
             if (event.key === "Escape") {
-                closeModal('watavModal');
+                document.querySelectorAll('.project-modal').forEach(function (modal) {
+                    modal.classList.add('hidden');
+                });
+                document.body.classList.remove('overflow-hidden');
             }
         });
     </script>
