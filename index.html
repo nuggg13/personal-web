@@ -187,6 +187,28 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
             <div class="space-y-2">
+                <img src="img/campusflow.png" alt="CampusFlow Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">CampusFlow</h3>
+                <p class="text-xs text-gray-600">2026</p>
+                <button onclick="openModal('campusflowModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <img src="img/15_halte.png" alt="The 15 Halte Show Project"
+                    class="w-full h-48 object-cover border border-black">
+                <h3 class="text-lg font-serif">The 15 Halte Show</h3>
+                <p class="text-xs text-gray-600">2026</p>
+                <button onclick="openModal('publicTransitPlannerModal')"
+                    class="inline-block px-4 py-1 mt-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View
+                </button>
+            </div>
+
+            <div class="space-y-2">
                 <img src="img/QuizHell.png" alt="QuizHell Project"
                     class="w-full h-48 object-cover border border-black">
                 <h3 class="text-lg font-serif">QuizHell</h3>
@@ -309,6 +331,70 @@
 
         </div>
     </section>
+
+    <!-- CampusFlow Modal -->
+    <div id="campusflowModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('campusflowModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('campusflowModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">CampusFlow</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    CampusFlow is a campus management web application that brings courses, assignments, grades,
+                    schedules, notes, and semester information together in one organized platform.
+                </p>
+                <p>
+                    <strong>Key Highlights:</strong>
+                </p>
+                <ul class="list-disc list-inside space-y-1 ml-2">
+                    <li>Organized course and semester management.</li>
+                    <li>Centralized assignments, grades, schedules, and notes.</li>
+                    <li>Authentication and dedicated campus workflow modules.</li>
+                </ul>
+                <a href="https://github.com/nuggg13/campusflow" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The 15 Halte Show Modal -->
+    <div id="publicTransitPlannerModal" class="project-modal fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeModal('publicTransitPlannerModal')"></div>
+
+        <div class="w-11/12 max-w-2xl bg-[#FAFAF8] border border-black p-8 shadow-lg relative z-10">
+            <button onclick="closeModal('publicTransitPlannerModal')"
+                class="absolute top-4 right-4 text-2xl hover:text-gray-600">&times;</button>
+            <h3 class="text-2xl font-serif mb-4">The 15 Halte Show</h3>
+            <div class="space-y-4 text-sm leading-relaxed text-gray-800">
+                <p>
+                    The 15 Halte Show adalah game strategi transit berbasis web. Pemain mengelola jaringan bus dengan
+                    menyusun rute di antara halte yang muncul bertahap, lalu mengamati dampaknya terhadap layanan
+                    penumpang.
+                </p>
+                <p>
+                    <strong>Tujuan Game:</strong> Bangun jaringan bus yang mampu melayani permintaan penumpang sebaik
+                    mungkin dengan menyeimbangkan halte yang terhubung, jumlah bus, antrean, waktu tunggu, tingkat
+                    layanan, dan utilisasi bus.
+                </p>
+                <p>
+                    Pemain dapat menjalankan atau menjeda simulasi, mengatur kecepatannya, membuat dan mengelola rute,
+                    serta memantau statistik layanan. Game ini merupakan sandbox strategi tanpa kondisi menang atau
+                    kalah paksa.
+                </p>
+                <p>
+                    Teknologi: TypeScript, Vite, HTML Canvas, dan CSS Grid.
+                </p>
+                <a href="https://github.com/nuggg13/public_transit_planner" target="_blank" rel="noopener noreferrer"
+                    class="inline-block px-4 py-1 border border-black text-sm hover:bg-black hover:text-white transition">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- Certifications Section -->
     <section id="certifications"
